@@ -9,8 +9,8 @@ minSdkVersion 22
 targetSdkVersion 27
 ```
 ## Used
- *SQLite- For Login and Register
- *Shared Preferences - For maintaining leaderboard
+ * SQLite- For Login and Register
+ * Shared Preferences - For maintaining leaderboard
 
 ## Screenshots
 Login activity which uses SQLite<br />
