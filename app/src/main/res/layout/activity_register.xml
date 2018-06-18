@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/backg"
     android:fitsSystemWindows="true">
 
@@ -26,7 +26,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textColorHint="#FFF"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:counterTextAppearance="@style/TextLimitStyle"
+            app:counterOverflowTextAppearance="@style/TextLimitError"
+            >
             <EditText android:id="@+id/input_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
