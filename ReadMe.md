@@ -41,3 +41,12 @@ Result Screen<br />
       ```
       https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
       ```
+   * The progress bar for the quiz 
+      ```
+      https://github.com/lzyzsd/CircleProgress
+      ```
+      Use this by adding the following in your build.grade(app level) file
+      ```
+      compile 'com.github.lzyzsd:circleprogress:1.1.0@aar'
+      ```
+   
