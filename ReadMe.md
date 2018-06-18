@@ -1,6 +1,10 @@
 # QuizIT app- CTF Tech Task
 A quiz App designed based on the specifications laid down for the CTF Tech task complete with registration, timer and a leaderboard. <br />
-I have included comments to describe the functionality in most places.
+I have included comments to describe the functionality in most places. <br />
+Since this uses SQLite, one has to register in the beginning, as per the task specification.<br />
+There are two kinds of quizes - Tech & Cricket. Each genre has 5 questions and 50 seconds for each quiz. <br />
+One can see the leaderboard which has top three scores with the username. <br />
+
 ## Prerequisites
 ```
 minSdkVersion 22
