@@ -27,6 +27,9 @@ Register Activity <br />
 Dashboard<br />
 <img src="https://github.com/bhargav191098/Quiz_Tech_Task/blob/master/ctf_screenshot/dashboard.jpg" alt="dashboard" width="200" height="300">
 <br />
+Quiz Question Activity<br />
+<img src="https://github.com/bhargav191098/Quiz_Tech_Task/blob/master/ctf_screenshot/question.jpg" alt="dashboard" width="200" height="300">
+<br />
 Leaderboard<br />
 <img src="https://github.com/bhargav191098/Quiz_Tech_Task/blob/master/ctf_screenshot/leaderboard.jpg" alt="leaderboard" width="200" height="300">
 <br />
