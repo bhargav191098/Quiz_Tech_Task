@@ -78,6 +78,13 @@ public class CricketQuiz extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        Log.d("CDA", "onBackPressed Called");
+        t.cancel();
+        Intent setIntent = new Intent(getApplicationContext(),QuizDashboard.class);
+        startActivity(setIntent);
+    }
     private void updateQuestion(){
         // check if we are not outside array bounds for questions
         if(mQuestionNumber<mQuestionLibrary.getLength() ){
